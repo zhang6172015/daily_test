@@ -8,7 +8,22 @@
 <body>
     <canvas id="gobang"width="450px" height="450px">
         <script type="text/javascript" src="js/gobang_AI.js"></script>
-
     </canvas>
+
+    <aside id="playInfo">
+        <h3>人机对战五子棋</h3>
+        <ol>
+            <li>玩家先手</li>
+            <li>点击“开始”进行游戏</li>
+            <li>点击“结束”可以直接终止游戏</li>
+        </ol>
+        <p>当前版本：1.0</p>
+        <p>介绍：当前版本实现了玩家点击“开始”“结束”可以进行游戏的功能</p>
+        <script>drawChessUI()</script>
+        <button id="beginChess" onclick="beginChess()">开始</button>
+        <button id="endChess" onclick="endChess(2)">结束</button>
+    </aside>
+
+
 </body>
 </html>
