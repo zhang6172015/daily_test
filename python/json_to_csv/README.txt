@@ -1,0 +1,4 @@
+本脚本用来解析json文件，并输出为csv文件
+依赖的包有：json和csv
+json文件名和输出csv文件名在函数get_jsonValue中设置
+执行时命令行执行python read_json2csv.py
